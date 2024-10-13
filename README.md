@@ -44,6 +44,7 @@ python2 tools/create_feats.py --infeats bottom_up_tsv --outfolder ./mscoco/featu
 4. The pretrained models and results can be downloaded [here](https://drive.google.com/open?id=1a7aINHtpQbIw5JbAc4yvC7I1V-tQSdzb).
 
 5. The pretrained SENet-154 model can be downloaded [here](https://drive.google.com/file/d/1CrWJcdKLPmFYVdVNcQLviwKGtAREjarR/view?usp=sharing).
+6. Geometric features used for this work can be downloaded [GF-FRCNN MSCOCO](https://data.mendeley.com/preview/sf238jg557).
 
 ## Training
 ### Train IGINet model
