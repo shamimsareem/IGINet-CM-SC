@@ -1,0 +1,28 @@
+Feature Extraction from bottom_up_tsv to npz  
+python create_feats_run.py
+
+Training
+1. Train X-LAN model
+set CUDA_VISIBLE_DEVICES=0
+python main.py --folder ./experiments/xlan
+
+2. Train X-LAN model using self critical
+set CUDA_VISIBLE_DEVICES=0
+python main.py --folder ./experiments/xlan_rl
+
+3. Train X-LAN transformer model
+set CUDA_VISIBLE_DEVICES=0
+python main.py --folder ./experiments/xtransformer
+
+
+4. Train X-LAN transformer model using self critical
+set CUDA_VISIBLE_DEVICES=0
+python main.py --folder ./experiments/xtransformer_rl
+
+
+Evaluation
+set CUDA_VISIBLE_DEVICES=0 
+python main_test.py --folder ./experiments/xlan --resume model_epoch
+python main_test.py --folder ./experiments/xlan --resume 2  
+
+
