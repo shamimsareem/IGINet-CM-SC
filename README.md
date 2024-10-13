@@ -1,12 +1,16 @@
 # Introduction
-This repository is for **X-Linear Attention Networks for Image Captioning** (CVPR 2020). The original paper can be found [here](https://arxiv.org/pdf/2003.14080.pdf).
+This repository is for **IGINet: Integrating Geometric Information to
+Enhance inter-modal interaction for Fine-Grained
+Image Captioning**. The original paper can be found [here](link of my paper).
 
 Please cite with the following BibTeX:
 
 ```
-@inproceedings{xlinear2020cvpr,
-  title={X-Linear Attention Networks for Image Captioning},
-  author={Pan, Yingwei and Yao, Ting and Li, Yehao and Mei, Tao},
+@inproceedings{IGINet2020cvpr,
+  title={IGINet: Integrating Geometric Information to
+Enhance inter-modal interaction for Fine-Grained
+Image Captioning},
+  author={Hossain, Md Shamim, --,--, --},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2020}
 }
@@ -42,23 +46,23 @@ python2 tools/create_feats.py --infeats bottom_up_tsv --outfolder ./mscoco/featu
 5. The pretrained SENet-154 model can be downloaded [here](https://drive.google.com/file/d/1CrWJcdKLPmFYVdVNcQLviwKGtAREjarR/view?usp=sharing).
 
 ## Training
-### Train X-LAN model
+### Train IGINet model
 ```
 bash experiments/xlan/train.sh
 ```
 
-### Train X-LAN model using self critical
+### Train IGINet model using self critical
 Copy the pretrained model into experiments/xlan_rl/snapshot and run the script
 ```
 bash experiments/xlan_rl/train.sh
 ```
 
-### Train X-LAN transformer model
+### Train IGINet transformer model
 ```
 bash experiments/xtransformer/train.sh
 ```
 
-### Train X-LAN transformer model using self critical
+### Train IGINet transformer model using self critical
 Copy the pretrained model into experiments/xtransformer_rl/snapshot and run the script
 ```
 bash experiments/xtransformer_rl/train.sh
