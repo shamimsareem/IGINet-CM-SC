@@ -6,13 +6,13 @@ Image Captioning**. The original paper can be found [here](link of my paper).
 Please cite with the following BibTeX:
 
 ```
-@inproceedings{IGINet2020cvpr,
-  title={IGINet: Integrating Geometric Information to
-Enhance inter-modal interaction for Fine-Grained
-Image Captioning},
-  author={Hossain, Md Shamim, --,--, --},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2020}
+@article{hossain2024iginet,
+  title={IGINet: integrating geometric information to enhance inter-modal interaction for fine-grained image captioning},
+  author={Hossain, MS and Aktar, S and Liu, W and Gu, N and Huang, Z},
+  journal={Multimedia Systems},
+  pages={1--13},
+  year={2024},
+  publisher={Springer}
 }
 ```
 
