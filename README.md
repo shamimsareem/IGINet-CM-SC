@@ -1,7 +1,7 @@
 # Introduction
 This repository is for **IGINet: Integrating Geometric Information to
 Enhance inter-modal interaction for Fine-Grained
-Image Captioning**. The original paper can be found [(https://link.springer.com/article/10.1007/s00530-024-01608-1)](link of my paper).
+Image Captioning**. We have integrate geometry feature with the original X-Linear Network for image captioning (https://github.com/JDAI-CV/image-captioning). Our paper can be found [(https://link.springer.com/article/10.1007/s00530-024-01608-1)](link of my paper).
 
 Please cite with the following BibTeX:
 
