@@ -20,7 +20,7 @@ Please cite with the following BibTeX:
 
 @article{hossain2024cm,
   title={CM-SC: Cross-modal spatial-channel attention network for image captioning},
-  author={Hossain, Md Shamim and Aktar, Shamima and Hossain, Mohammad Alamgir and Gu, Naijie and Huang, Zhangjin},
+  author={Hossain, Md Shamim and Aktar, Shamima and Gu, Naijie and Huang, Zhangjin},
   journal={Displays},
   pages={102941},
   year={2024},
