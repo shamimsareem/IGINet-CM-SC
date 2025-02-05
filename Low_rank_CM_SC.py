@@ -1,3 +1,9 @@
+##########################################################
+# Copyright 2025 
+# Licensed under the terms of the MIT license.
+# Please see LICENSE file in the project root for terms.
+##########################################################
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
